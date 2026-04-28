@@ -39,12 +39,12 @@
 7. Save the file.
 8. Complete steps 1-7 for the next resource you want to create (google_compute_network)
 9. Open a terminal in your working folder and initialize terraform by running ```terraform init```
-![terraform init](../terraform_init.jpg)
+![terraform init](./screenshots/terraform_init.jpg)
 10. Confirm that your terraform syntax is correct by running ```terraform validate```
-![terraform validate](../terraform_valdiate.jpg)
+![terraform validate](./screenshots/terraform_valdiate.jpg)
 11. Confirm your code by running ```terraform plan`` and verify that your code is producing exactly what you intend.
-![Terraform plan](../terraform_plan.jpg)
+![Terraform plan](./screenshots/terraform_plan.jpg)
 12. Run ```terraform apply``` and confirm with "yes" at the prompt to deploy your resource.
-![terraform apply](../terraform_apply.jpg)
+![terraform apply](./screenshots/terraform_apply.jpg)
 13. After the code runs, you should see a new file, with the specs you declared in your code, created inside the folder
-![confirmed_output](../confirmed_output.jpg)
+![confirmed_output](./screenshots/confirmed_output.jpg)
